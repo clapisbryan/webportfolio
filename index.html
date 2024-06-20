@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -58,6 +58,11 @@
                 >
               </li>
               <li class="nav-item">
+                <a class="nav-link text-light" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
                 <a class="nav-link text-light" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
@@ -72,25 +77,145 @@
       </nav>
     </header>
 
-    <section id="landing" class="container">
+    <section id="landing" class="container py-5">
       <div
         class="d-flex flex-column h-100 align-items-center justify-content-center"
       >
         <h4 class="text-light mb-0">I'm Bryan B. Clapis</h4>
-        <h1 class="fw-bold sub-text-primary">Full Stack Developer</h1>
-        <p class="text-light w-75">
-          I have strong command of any design format conversion into HTML, CSS,
-          and Bootstrap (PSD to HTML, XD to HTML, etc), and I can proudly assist
-          you with HTML5, CSS3, Bootstrap, Javascript, React JS, React Redux and
-          responsive web pages
+        <h1 class="fw-bold sub-text-primary title">Full Stack Developer</h1>
+        <p class="text-light fs-6">
+          With a focus on <span class="sub-text-primary fw-bold">ReactJS</span>
         </p>
       </div>
     </section>
 
-    <section id="projects" class="container">
+    <section id="about" class="container py-5">
+      <h2 class="text-center text-light mb-4">About</h2>
+      <ul class="text-center p-0">
+        <li>
+          <p>
+            <span class="sub-text-primary fw-bold"
+              >● Front End Web Development:</span
+            >
+            HTML5, CSS3, Bootstrap, Wireframes and Mockups, Git and GitHub,
+            Vercel
+          </p>
+        </li>
+        <li>
+          <p>
+            <span class="sub-text-primary fw-bold"
+              >● Back End Development:</span
+            >
+            JavaScript, Node.js, Express.js, MongoDB, Postman, REST API
+          </p>
+        </li>
+        <li>
+          <p>
+            <span class="sub-text-primary fw-bold"
+              >● Full Stack Development:</span
+            >
+            React.js, JS DOM Manipulation, API Integration with Fetch, SDLC, and
+            Trello
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container py-5">
       <div>
         <h2 class="text-center text-light mb-3 mb-md-5">Projects</h2>
 
+        <div
+          class="row flex-column-reverse flex-md-row my-3 my-md-5 py-3 py-md-5"
+        >
+          <div class="col-12 col-md-6 mb-3 mb-md-0">
+            <h3 class="mb-3 sub-text-primary">Vacay Bucks</h3>
+            <p class="mb-2">
+              Vacay Bucks is a subscription-based discount platform, originally
+              developed exclusively for our sister site, Vacay Poker Club (a
+              non-gambling social poker platform launching in April 2024). Due
+              to popular demand, it is now open to everyone. Members enjoy
+              exclusive discounts on hotels, car rentals, restaurants, movie
+              tickets, theme parks and much more. Savings easily surpass the
+              cost of membership.
+            </p>
+
+            <ul class="use-tools">
+              <li class="tool-item">
+                <img src="./images/tools/html.png" alt="" class="img-fluid" />
+              </li>
+              <li class="tool-item">
+                <img src="./images/tools/css3.png" alt="" class="img-fluid" />
+              </li>
+              <li class="tool-item">
+                <img
+                  src="./images/tools/bootstrap.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+              <li class="tool-item">
+                <img
+                  src="./images/tools/reactjs.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+              <li class="tool-item">
+                <img
+                  src="./images/tools/javascript.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+            </ul>
+            <a href="https://vacaybucks.com/">Click to view</a>
+          </div>
+          <div class="col-12 col-md-6 text-center mb-3 mb-md-0">
+            <img
+              src="./images/projects/vacay-bucks.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="row my-3 my-md-5 py-3 py-md-5">
+          <div class="col-12 col-md-6 mb-3 mb-md-0">
+            <img
+              src="./images/projects/vacaypoker.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <h3 class="mb-3 sub-text-primary">Vacay Poker Club</h3>
+            <p class="mb-2">Coming Soon Page</p>
+
+            <ul class="use-tools">
+              <li class="tool-item">
+                <img src="./images/tools/html.png" alt="" class="img-fluid" />
+              </li>
+              <li class="tool-item">
+                <img src="./images/tools/css3.png" alt="" class="img-fluid" />
+              </li>
+              <li class="tool-item">
+                <img
+                  src="./images/tools/bootstrap.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+              <li class="tool-item">
+                <img
+                  src="./images/tools/javascript.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </li>
+            </ul>
+            <a href="https://vacaypoker.com/">Click to view</a>
+          </div>
+        </div>
         <div
           class="row flex-column-reverse flex-md-row my-3 my-md-5 py-3 py-md-5"
         >
@@ -195,82 +320,11 @@
             <a href="https://admin.oleplatform.com/dashboard">Click to view</a>
           </div>
         </div>
-        <div
-          class="row flex-column-reverse flex-md-row my-3 my-md-5 py-3 py-md-5"
-        >
-          <div class="col-12 col-md-6 mb-3 mb-md-0">
-            <h3 class="mb-3 sub-text-primary">Vacay Bucks</h3>
-            <p class="mb-2">
-              Vacay Bucks is a subscription-based discount platform, originally
-              developed exclusively for our sister site, Vacay Poker Club (a
-              non-gambling social poker platform launching in April 2024). Due
-              to popular demand, it is now open to everyone. Members enjoy
-              exclusive discounts on hotels, car rentals, restaurants, movie
-              tickets, theme parks and much more. Savings easily surpass the
-              cost of membership.
-            </p>
-            
-            <ul class="use-tools">
-              <li class="tool-item">
-                <img src="./images/tools/html.png" alt="" class="img-fluid">
-              </li>
-              <li class="tool-item">
-                <img src="./images/tools/css3.png" alt="" class="img-fluid">
-              </li>
-              <li class="tool-item">
-                <img src="./images/tools/bootstrap.png" alt="" class="img-fluid">
-              </li>
-              <li class="tool-item">
-                <img src="./images/tools/reactjs.png" alt="" class="img-fluid">
-              </li>
-              <li class="tool-item">
-                <img src="./images/tools/javascript.png" alt="" class="img-fluid">
-              </li>
-            </ul>
-            <a href="https://vacaybucks.com/">Click to view</a>
-          </div>
-          <div class="col-12 col-md-6 text-center mb-3 mb-md-0">
-            <img
-              src="./images/projects/vacay-bucks.png"
-              alt=""
-              class="img-fluid"
-            />
-          </div>
-        </div>
-        <div class="row my-3 my-md-5 py-3 py-md-5">
-          <div class="col-12 col-md-6 mb-3 mb-md-0">
-            <img
-              src="./images/projects/vacaypoker.png"
-              alt=""
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-12 col-md-6 mb-3">
-            <h3 class="mb-3 sub-text-primary">Vacay Poker Club</h3>
-            <p class="mb-2">Coming Soon Page</p>
-            
-            <ul class="use-tools">
-              <li class="tool-item">
-                <img src="./images/tools/html.png" alt="" class="img-fluid">
-              </li>
-              <li class="tool-item">
-                <img src="./images/tools/css3.png" alt="" class="img-fluid">
-              </li>
-              <li class="tool-item">
-                <img src="./images/tools/bootstrap.png" alt="" class="img-fluid">
-              </li>
-              <li class="tool-item">
-                <img src="./images/tools/javascript.png" alt="" class="img-fluid">
-              </li>
-            </ul>
-            <a href="https://vacaypoker.com/">Click to view</a>
-          </div>
-        </div>
       </div>
     </section>
-    <section id="tools" class="container my-5">
+    <section id="tools" class="container py-5">
       <div>
-        <h2 class="text-center text-light mb-5">Tools</h2>
+        <h2 class="text-center text-light mb-4">Tools</h2>
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
             <div
@@ -397,9 +451,6 @@
               <!-- <li class="mb-3 text-break">
                 <a href="https://www.linkedin.com/in/bryan-clapis-316976165/" class="text-light">linkedin.com/in/bryan-clapis-316976165/</a>
               </li> -->
-              <li class="mb-3 text-break">
-                <a href="#landing" class="text-light">clapisbryan.github.io/webportfolio/</a>
-              </li>
             </ul>
           </div>
           <div class="col-12 col-md-6 mb-3 mb-md-0">

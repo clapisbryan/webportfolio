@@ -7,7 +7,7 @@
 
 body {
 	background: linear-gradient(142deg, rgba(16,22,48,1) 0%, rgba(52,19,170,1) 94%);;
-	font-family: "Marcellus", serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 16px;
 	overflow-x: hidden;
 	color: #ffffff;
@@ -30,6 +30,11 @@ a:hover {
 	text-align: center;
 	margin-top: -60px;
 }
+
+#landing .title{
+	font-size: 60px;
+}
+
 .sub-text-primary {
 	color: #1dc3ff;
 }
@@ -67,5 +72,15 @@ ul {
 	#landing {
 		height: 400px;
 		margin-top: 0px;
+	}
+	#landing .title{
+		font-size: 28px;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	#landing .title{
+		font-size: 36px;
 	}
 }
